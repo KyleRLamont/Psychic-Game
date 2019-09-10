@@ -32,7 +32,7 @@ function guessMatch (character) {
     } else if (guessesleft === 0) {
         losses = losses + 1;
         showLosses();
-        alert("Please try again...")
+        alert("You are out of guesses. Please try again...")
         resetVariables ();
         console.log(computerGuess);
     } else {
