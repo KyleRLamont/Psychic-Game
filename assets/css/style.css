@@ -10,8 +10,8 @@ div {
 }
 
 #psyball {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     float: right;
 }
 
@@ -19,4 +19,12 @@ div {
     content: "";
     clear: both;
     display: table;
-  }
+}
+
+.container-fluid {
+    padding-left: 93px;
+}
+
+body {
+    background-color: rgb(225, 214, 231);
+}
