@@ -6,11 +6,17 @@ div {
 .jumbotron {
     background-color: rgb(151, 226, 222);
     color: rgb(102, 86, 40);
+    float: none;
 }
 
 #psyball {
-    float: right;
     width: 200px;
     height: 200px;
-    overflow: auto;
+    float: right;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
