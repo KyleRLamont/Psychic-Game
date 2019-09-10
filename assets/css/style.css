@@ -1,0 +1,16 @@
+div {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.jumbotron {
+    background-color: rgb(151, 226, 222);
+    color: rgb(102, 86, 40);
+}
+
+#psyball {
+    float: right;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
